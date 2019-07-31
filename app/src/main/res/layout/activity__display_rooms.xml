@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Display_rooms"
+    android:background="@drawable/w1">
+
+    <include
+        android:id="@+id/toolbar_rooms"
+        layout="@layout/toolbar2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_rooms"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="====== All rooms: ======"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold|normal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:paddingLeft="5dp"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

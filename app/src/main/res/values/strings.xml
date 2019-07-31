@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">BookIn OCP</string>
+    <string name="activity_admin_login_title">Login Page</string>
+    <string name="activity_guest_menu_title">Guest Menu</string>
+    <string name="activity_admin_menu_title">Admin Menu</string>
+    <string name="activity_cancel_reservation_title">Cancel Reservation</string>
+    <string name="activity_Scanner1_title">Qr Scanner</string>
+    <string name="activity_room_input_info_title">Adding New Room</string>
+    <string name="URL_title">http://6ce0fe65.ngrok.io/TheBookInApp/</string>
+    <string-array name="time">
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+    </string-array>
+    <string-array name="duration">
+        <item>00:30</item>
+        <item>01:00</item>
+        <item>01:30</item>
+        <item>02:00</item>
+        <item>02:30</item>
+        <item>03:00</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login_adm">Login Menu</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="placeholder_date" >%1$d / %2$d / %3$d</string>
+</resources>
