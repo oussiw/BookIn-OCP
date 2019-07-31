@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.book_inbeta1">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_main"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity_Display_rooms"></activity>
+        <activity android:name=".Activity_after_main" />
+        <activity android:name=".Activity_reservation_input" />
+        <activity
+            android:name=".Activity_cancel_reservation"
+            android:label="@string/activity_cancel_reservation_title" />
+        <activity
+            android:name=".Activity_room_input_info"
+            android:label="@string/activity_room_input_info_title" />
+        <activity android:name=".Activity_Display_Results" />
+        <activity
+            android:name=".Activity_Scanner1"
+            android:label="@string/activity_Scanner1_title" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
